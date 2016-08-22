@@ -10,9 +10,9 @@ public class Article implements Serializable {
     private String title;
     private String desc;
 
-    public Article(String title, String desc) {
-        this.title = title;
-        this.desc = desc;
+    public Article(String name, String age) {
+        this.title = name;
+        this.desc = age;
     }
 
     public void setDesc(String desc) {

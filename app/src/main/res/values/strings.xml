@@ -7,7 +7,8 @@
     <string name="action_settings">Settings</string>
 
     <string name="title_one">Test 1</string>
-    <string name="title_two">Test 2</string>
+    <string name="title_two">吐槽</string>
     <string name="article_one">hello 1</string>
-    <string name="article_two">hello 2</string>
+    <string name="article_two">作为一个 Android developer，没有什么比拿着 UI 设计的一堆 iOS 风格的设计 来做需求更恶心的了，基本所有空间都要照着 iOS 来画一遍，Material Design 辣么酷炫 为什么 UI在设计的阶段不设计成 Material Design风格呢？今天试了几个比较Support包中比较典型的Material Design控件，后期会在学习下Material Design的设计思想和理念，希望能拉着 UI 做一次Material Design 分享，改变我们 APP 的 iOS 风格啊。
+    </string>
 </resources>
