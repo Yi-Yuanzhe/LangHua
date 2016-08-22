@@ -1,10 +1,10 @@
 [
     {
-        "merged": "D:\\AndroidStudioProjects\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
-        "source": "D:\\AndroidStudioProjects\\MyApplication2\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\AndroidStudioProjects\\LangHua\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "D:\\AndroidStudioProjects\\MyApplication2\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\AndroidStudioProjects\\LangHua\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     }
 ]

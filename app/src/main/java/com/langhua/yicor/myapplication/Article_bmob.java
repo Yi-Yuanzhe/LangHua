@@ -3,16 +3,15 @@ package com.langhua.yicor.myapplication;
 import cn.bmob.v3.BmobObject;
 
 /**
- * Created by yicor on 2016/8/21.
+ * Created by yicor on 2016/8/22.
  */
 
-public class Article extends BmobObject{
+public class Article_bmob extends BmobObject {
     private String title;
     private String desc;
 
-    public Article(String name, String age) {
-        this.title = name;
-        this.desc = age;
+    public Article_bmob() {
+
     }
 
     public void setDesc(String desc) {
