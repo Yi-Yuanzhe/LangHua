@@ -3,24 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
-        <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_638b372b56f149d82ee2fe7a061ba51299337057\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.1\jars\libs\okio-1.7.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="773ad1693c18c66979f4ad512c4ab0bd7d6474c8">
-        <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.7.0_bb4c2f17d14c71034b712aa7d6209e800d82b384\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -39,21 +21,93 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="49fd7bff4d05d59b25a3ca2e9f85765e9e5f8da8">
-        <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3aca574824d74221e3e48d7cec7ffba5829dd8eb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.1\jars\libs\okhttp-3.3.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="d9c29d5303668e8684048860226f4865680e21a6">
         <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.1_17b7884eb066c1515e5064f0dc6b0dff36f59716\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_20b3aa9ab23baa84e8862fbdbe81d1573581c88e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_80ad2c379ea4dab23d1f007fe5d6abfa38c83799\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_e94f0d4a00b655d5f475e812ee1af87f778caaa3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_9a8dfa2f6173313d76685c10cd3d9d454be27e97\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.1\jars\libs\rxandroid-1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0eaff7b1c5ad8f1198694f7bd19b9b75a30698b6">
+        <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxandroid-1.2.0_fc049631b5f76b9b2b3d07b6fa81eb9273d320b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_03b834139bb19eec70b781bc5fb649b320967f96\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_638b372b56f149d82ee2fe7a061ba51299337057\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.1\jars\libs\okio-1.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="773ad1693c18c66979f4ad512c4ab0bd7d6474c8">
+        <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.7.0_bb4c2f17d14c71034b712aa7d6209e800d82b384\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6121f761a788ee7cae13c2081de70dc092143a9a">
+        <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3aca574824d74221e3e48d7cec7ffba5829dd8eb\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -120,15 +174,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
-        <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_20b3aa9ab23baa84e8862fbdbe81d1573581c88e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -156,29 +201,11 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
-        <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_80ad2c379ea4dab23d1f007fe5d6abfa38c83799\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
-        <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_e94f0d4a00b655d5f475e812ee1af87f778caaa3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="930a44264c22af8240c182312f31528a3e4b19d3">
+        sha1="aa118173340cbf275c4f67b451b41cabe280cfa8">
         <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f1e09c6896bda6078a7ea9572916de33d509916b\classes.dex" />
     </item>
     <item
@@ -219,39 +246,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
-        <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_9a8dfa2f6173313d76685c10cd3d9d454be27e97\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
         <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_2d13b1da0f7ca2d4e6bd9d2fa4e012df7b318a59\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.1\jars\libs\rxandroid-1.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="0eaff7b1c5ad8f1198694f7bd19b9b75a30698b6">
-        <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxandroid-1.2.0_fc049631b5f76b9b2b3d07b6fa81eb9273d320b3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
-        <dex dex="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_03b834139bb19eec70b781bc5fb649b320967f96\classes.dex" />
     </item>
 
 </items>

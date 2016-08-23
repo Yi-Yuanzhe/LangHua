@@ -25,6 +25,7 @@ import cn.bmob.v3.BmobInstallation;
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
+import cn.bmob.v3.listener.QueryListener;
 import cn.bmob.v3.listener.SaveListener;
 
 public class MainActivity extends AppCompatActivity
@@ -34,7 +35,9 @@ public class MainActivity extends AppCompatActivity
     private List<Article> articleList;
     private RecyclerViewAdapter adapter;
     private String APPID = "44aaca9931fa2c23b01071a474a081be";
-    //BmobQuery<Article> bmobQuery = BmobInstallation.getQuery();
+    private Article_bmob ab = new Article_bmob();
+
+    ArrayList<String> my_list = new ArrayList<String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,10 +90,13 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void initData() {
+        queryArticle();
+
         articleList = new ArrayList<>();
 
         articleList.add(new Article(getString(R.string.title_one), getString(R.string.article_one)));
-        articleList.add(new Article(getString(R.string.title_two), getString(R.string.article_two)));
+        articleList.add(new Article("Test", "Test"));
+        //queryArticle();
 
     }
 
@@ -152,7 +158,6 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void saveArticle(String title, String desc) {
-        Article_bmob ab = new Article_bmob();
         ab.setTitle(title);
         ab.setDesc(desc);
 
@@ -165,6 +170,25 @@ public class MainActivity extends AppCompatActivity
                 } else {
                     Toast.makeText(MainActivity.this, "fail: " + e, Toast.LENGTH_LONG).show();
                     e.printStackTrace();
+                }
+
+            }
+        });
+
+    }
+
+    public void queryArticle() {
+        BmobQuery<Article_bmob> bmobQuery = new BmobQuery<Article_bmob>();
+
+        bmobQuery.findObjects(new FindListener<Article_bmob>() {
+            @Override
+            public void done(List<Article_bmob> list, BmobException e) {
+                if (e == null) {
+                    for (Article_bmob ab : list) {
+
+                    }
+                } else {
+                    Toast.makeText(MainActivity.this, "Faile: " + e, Toast.LENGTH_LONG).show();
                 }
 
             }
