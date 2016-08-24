@@ -1,11 +1,12 @@
 package com.langhua.yicor.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -21,11 +22,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cn.bmob.v3.Bmob;
-import cn.bmob.v3.BmobInstallation;
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
-import cn.bmob.v3.listener.QueryListener;
 import cn.bmob.v3.listener.SaveListener;
 
 public class MainActivity extends AppCompatActivity
@@ -36,6 +35,7 @@ public class MainActivity extends AppCompatActivity
     private RecyclerViewAdapter adapter;
     private String APPID = "44aaca9931fa2c23b01071a474a081be";
     private Article_bmob ab = new Article_bmob();
+    private SwipeRefreshLayout swipeRefreshLayout;
 
     ArrayList<String> my_list = new ArrayList<String>();
 
@@ -52,6 +52,15 @@ public class MainActivity extends AppCompatActivity
 
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
 
+        swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swiperefresh);
+        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                //adapter.notifyDataSetChanged();
+                //swipeRefreshLayout.setRefreshing(false);
+            }
+        });
+
         initData();
         adapter = new RecyclerViewAdapter(articleList, MainActivity.this);
 
@@ -66,7 +75,9 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 //        .setAction("Action", null).show();
-                saveArticle("Test_title", "Test_desc");
+                //saveArticle("Test_title", "Test_desc");
+                Intent intent = new Intent(MainActivity.this, WriteArticle.class);
+                startActivity(intent);
             }
         });
 
@@ -79,24 +90,16 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-/*
-        bmobQuery.findObjects(new FindListener<Article>() {
-            @Override
-            public void done(List<Article> list, BmobException e) {
-                //articleList.add(new Article("Test Bmob", article.getDesc()));
-            }
-        });
-*/
     }
 
     private void initData() {
-        queryArticle();
 
         articleList = new ArrayList<>();
 
-        articleList.add(new Article(getString(R.string.title_one), getString(R.string.article_one)));
-        articleList.add(new Article("Test", "Test"));
-        //queryArticle();
+        //空指针，因为先执行该函数再生成 adapter 的对象
+        //adapter.notifyDataSetChanged();
+
+        queryArticle();
 
     }
 
@@ -166,9 +169,9 @@ public class MainActivity extends AppCompatActivity
             public void done(String s, BmobException e) {
 
                 if(e == null) {
-                    Toast.makeText(MainActivity.this, "Success", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(MainActivity.this, "Success", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(MainActivity.this, "fail: " + e, Toast.LENGTH_LONG).show();
+                    //Toast.makeText(MainActivity.this, "fail: " + e, Toast.LENGTH_LONG).show();
                     e.printStackTrace();
                 }
 
@@ -178,17 +181,23 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void queryArticle() {
+        articleList = new ArrayList<>();
+
+        my_list = new ArrayList<String>();
+
         BmobQuery<Article_bmob> bmobQuery = new BmobQuery<Article_bmob>();
 
         bmobQuery.findObjects(new FindListener<Article_bmob>() {
             @Override
             public void done(List<Article_bmob> list, BmobException e) {
-                if (e == null) {
-                    for (Article_bmob ab : list) {
 
-                    }
-                } else {
-                    Toast.makeText(MainActivity.this, "Faile: " + e, Toast.LENGTH_LONG).show();
+                if (e == null) for (Article_bmob ab : list) {
+                    //my_list.add(ab.getTitle());
+                    articleList.add(new Article(ab.getTitle(), ab.getDesc()));
+                    adapter.notifyDataSetChanged();
+                }
+                else {
+                    Toast.makeText(MainActivity.this, "失败: " + e, Toast.LENGTH_LONG).show();
                 }
 
             }

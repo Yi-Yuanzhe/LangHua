@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AndroidStudioProjects\LangHua\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from D:\AndroidStudioProjects\LangHua\app\src\main\AndroidManifest.xml:2:1-33:12
 	package
 		ADDED from D:\AndroidStudioProjects\LangHua\app\src\main\AndroidManifest.xml:3:5-46
 		INJECTED from D:\AndroidStudioProjects\LangHua\app\src\main\AndroidManifest.xml
@@ -30,7 +30,7 @@ ADDED from D:\AndroidStudioProjects\LangHua\app\src\main\AndroidManifest.xml:12:
 	android:name
 		ADDED from D:\AndroidStudioProjects\LangHua\app\src\main\AndroidManifest.xml:12:22-72
 application
-ADDED from D:\AndroidStudioProjects\LangHua\app\src\main\AndroidManifest.xml:14:5-30:19
+ADDED from D:\AndroidStudioProjects\LangHua\app\src\main\AndroidManifest.xml:14:5-31:19
 MERGED from [com.android.support:design:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-vector-drawable:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:23:5-20
@@ -100,6 +100,11 @@ MERGED from [com.android.support:support-vector-drawable:24.2.0] D:\AndroidStudi
 MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-vector-drawable:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.0\AndroidManifest.xml:22:5-20
+MERGED from [cn.bmob.android:bmob-sdk:3.5.1] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.1\AndroidManifest.xml:11:5-14:19
 MERGED from [com.android.support:support-v4:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-core-utils:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:25:5-20
@@ -128,14 +133,9 @@ MERGED from [com.android.support:support-core-utils:24.2.0] D:\AndroidStudioProj
 MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-media-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-core-ui:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:cardview-v7:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.0\AndroidManifest.xml:22:5-20
-MERGED from [cn.bmob.android:bmob-sdk:3.5.1] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.1\AndroidManifest.xml:11:5-14:19
 	android:label
 		ADDED from D:\AndroidStudioProjects\LangHua\app\src\main\AndroidManifest.xml:17:9-41
 	android:supportsRtl
@@ -164,6 +164,10 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\AndroidStudioProjects\LangHua\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
 		ADDED from D:\AndroidStudioProjects\LangHua\app\src\main\AndroidManifest.xml:27:27-74
+activity#com.langhua.yicor.myapplication.WriteArticle
+ADDED from D:\AndroidStudioProjects\LangHua\app\src\main\AndroidManifest.xml:30:9-59
+	android:name
+		ADDED from D:\AndroidStudioProjects\LangHua\app\src\main\AndroidManifest.xml:30:19-47
 uses-sdk
 INJECTED from D:\AndroidStudioProjects\LangHua\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\AndroidManifest.xml:20:5-43
@@ -236,6 +240,12 @@ MERGED from [com.android.support:support-vector-drawable:24.2.0] D:\AndroidStudi
 MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-vector-drawable:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:21:5-43
 MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:recyclerview-v7:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.0\AndroidManifest.xml:20:5-43
+MERGED from [cn.bmob.android:bmob-sdk:3.5.1] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-v4:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\AndroidManifest.xml:21:5-23:61
@@ -264,15 +274,9 @@ MERGED from [com.android.support:support-core-utils:24.2.0] D:\AndroidStudioProj
 MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-media-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:recyclerview-v7:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-ui:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:cardview-v7:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.0\AndroidManifest.xml:20:5-43
-MERGED from [cn.bmob.android:bmob-sdk:3.5.1] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.1\AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:24.2.0] D:\AndroidStudioProjects\LangHua\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
