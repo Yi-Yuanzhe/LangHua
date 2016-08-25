@@ -1,4 +1,4 @@
-#Thu Aug 25 14:01:29 CST 2016
+#Thu Aug 25 14:53:23 CST 2016
 base.0=D\:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f1e09c6896bda6078a7ea9572916de33d509916b
 renamed.1=classes.dex
 renamed.0=classes2.dex

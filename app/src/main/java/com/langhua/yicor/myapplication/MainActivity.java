@@ -51,6 +51,9 @@ public class MainActivity extends AppCompatActivity
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
 
+        layoutManager.setStackFromEnd(true);
+        layoutManager.setReverseLayout(true);
+
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
 
         swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swiperefresh);
