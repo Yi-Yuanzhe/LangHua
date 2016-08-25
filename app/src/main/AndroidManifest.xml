@@ -28,6 +28,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".WriteArticle"></activity>
+        <activity android:name=".ArticleActivity"></activity>
     </application>
 
 </manifest>

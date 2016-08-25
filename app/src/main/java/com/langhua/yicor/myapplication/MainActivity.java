@@ -32,10 +32,11 @@ public class MainActivity extends AppCompatActivity
 
     private RecyclerView recyclerView;
     private List<Article> articleList;
-    private RecyclerViewAdapter adapter;
     private String APPID = "44aaca9931fa2c23b01071a474a081be";
     private Article_bmob ab = new Article_bmob();
     private SwipeRefreshLayout swipeRefreshLayout;
+
+    public RecyclerViewAdapter adapter;
 
     ArrayList<String> my_list = new ArrayList<String>();
 
@@ -68,6 +69,18 @@ public class MainActivity extends AppCompatActivity
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
         recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL_LIST));
+
+        /*
+        adapter.setOnItemClickListener(new RecyclerViewAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(View v, int pos) {
+                //Snackbar.make(v, "Test Item Click", Snackbar.LENGTH_LONG)
+                //        .setAction("Action", null).show();
+
+                Intent intent = new Intent();
+            }
+        });
+        */
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

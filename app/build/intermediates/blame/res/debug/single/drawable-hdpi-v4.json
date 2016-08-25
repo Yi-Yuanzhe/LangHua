@@ -8,12 +8,12 @@
         "source": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
         "source": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bmob_update_btn_check_on_focused_holo_light.png",
@@ -156,12 +156,12 @@
         "source": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
         "source": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bmob_update_btn_check_on_holo_light.png",

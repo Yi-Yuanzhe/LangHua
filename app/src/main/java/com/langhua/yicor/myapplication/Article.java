@@ -1,12 +1,12 @@
 package com.langhua.yicor.myapplication;
 
-import cn.bmob.v3.BmobObject;
+import java.io.Serializable;
 
 /**
  * Created by yicor on 2016/8/21.
  */
 
-public class Article extends BmobObject{
+public class Article implements Serializable {
     private String title;
     private String desc;
 

@@ -5,170 +5,56 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.0-beta2"
-    timestamp="1141469312702504"
+    timestamp="1195887159803590"
     token="-4423338932195988071"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="371" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="73" />
+        duration="0" />
     <task
         name="verifier"
-        duration="8" />
+        duration="0" />
 
     <artifact
-        location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-        type="DEX" />
+        location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="1133499863490827"
+        timestamp="1195716166270192"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\AndroidStudioProjects\LangHua\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="1137084168328998"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1195815311967249"
+        verifier="R_CLASS_CHANGE" >
         <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_e94f0d4a00b655d5f475e812ee1af87f778caaa3\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.2.0_bfc9b89a54cfab0342b2c76da47a572aa11efffb\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.7.0_bb4c2f17d14c71034b712aa7d6209e800d82b384\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.0_e0577a69df05597034615655986449d261d12c5c\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_d731bcef181339b7b52ad57f9ff8641f00dbbdc7\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_b6951824d73c126ebb1a299acb17b29d7c36b565\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_638b372b56f149d82ee2fe7a061ba51299337057\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_210ca69e45bbea938c0cb2220fbdcc91ca3dddb4\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_a5771e4d734b69fb4456d56818b95af9990dcceb\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.6_575fb18c456a070a524acaac9c00e854d7dc6f20\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_0da8167bb76d9b41165ca14972e366ca0ecf7712\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.2_12be572eb688c19ad3ec71dc0cdbabb62ad41e90\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f1e09c6896bda6078a7ea9572916de33d509916b\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\cn.bmob.android-bmob-sdk-3.5.1_11036a132963d97a0b74c3fe50741f510f7e4d94\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_2d13b1da0f7ca2d4e6bd9d2fa4e012df7b318a59\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_9a8dfa2f6173313d76685c10cd3d9d454be27e97\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_03b834139bb19eec70b781bc5fb649b320967f96\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3aca574824d74221e3e48d7cec7ffba5829dd8eb\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_80ad2c379ea4dab23d1f007fe5d6abfa38c83799\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_07a5c1ebda3f8649af5af44db2bc69059279e9ee\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_226e353d1cc31f757bdb07c01aa87127c9138464\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\http-legacy-1.0_c927842c5afba74cd3187558700361306a14bbc4\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\BmobSDK_3.5.1_20160720_54dec439d62090bf40b616d63b379d667d07f22d\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_3119ee1d6f28de65358c17a495d06e38f3d5b69d\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_20b3aa9ab23baa84e8862fbdbe81d1573581c88e\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxandroid-1.2.0_fc049631b5f76b9b2b3d07b6fa81eb9273d320b3\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.1_17b7884eb066c1515e5064f0dc6b0dff36f59716\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_e4ed247df84c44a412b93a89d19dc8992e8c34a3\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="1137839511668202"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
             type="DEX" />
         <artifact
             location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
             type="DEX" />
-    </build>
-    <build
-        timestamp="1138251308419272"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="1140292356158574"
+        timestamp="1195887159803590"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
-    </build>
-    <build
-        timestamp="1141469312702504"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>
