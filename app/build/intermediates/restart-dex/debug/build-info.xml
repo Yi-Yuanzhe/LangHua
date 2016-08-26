@@ -5,54 +5,53 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.0-beta2"
-    timestamp="1227808029254365"
+    timestamp="1292575418916945"
     token="-4423338932195988071"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="431" />
+        duration="507" />
     <task
         name="instant-run-dex"
-        duration="34" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="81" />
+        duration="50" />
     <task
         name="verifier"
-        duration="11" />
+        duration="2" />
 
     <artifact
-        location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="1226525265025717"
+        timestamp="1288565333688520"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\AndroidStudioProjects\LangHua\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="1227126309520288"
-        verifier="R_CLASS_CHANGE" >
+        timestamp="1292159315675247"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
-    </build>
-    <build
-        timestamp="1227717905509511"
-        verifier="METHOD_ADDED" >
         <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="1227808029254365"
-        verifier="COMPATIBLE" >
+        timestamp="1292575418916945"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
+            location="D:\AndroidStudioProjects\LangHua\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

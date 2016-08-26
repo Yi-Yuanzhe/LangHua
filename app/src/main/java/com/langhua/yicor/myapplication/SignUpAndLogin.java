@@ -1,10 +1,12 @@
 package com.langhua.yicor.myapplication;
 
 import android.app.Activity;
+import android.support.design.widget.Snackbar;
 import android.view.LayoutInflater;
 
 import com.langhua.yicor.myapplication.User;
 
+import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.SaveListener;
@@ -14,7 +16,7 @@ import cn.bmob.v3.listener.SaveListener;
  */
 
 public class SignUpAndLogin {
-    BmobUser bmobUser;
+    private BmobUser bmobUser;
 
     public void UserSignUp(String username, String pwd) {
         bmobUser = new BmobUser();
@@ -26,11 +28,8 @@ public class SignUpAndLogin {
             @Override
             public void done(User user, BmobException e) {
                 if(e == null) {
-                    //Snackbar.make(v, "注册成功", Snackbar.LENGTH_LONG)
-                    //       .setAction("Action", null).show();
+
                 } else {
-                    //Snackbar.make(v, "注册失败", Snackbar.LENGTH_LONG)
-                    //       .setAction("Action", null).show();
                     e.printStackTrace();
                 }
 
@@ -55,6 +54,25 @@ public class SignUpAndLogin {
                 }
             }
         });
+    }
+
+    public boolean isLogin() {
+        boolean flag;
+        bmobUser = bmobUser.getCurrentUser();
+
+        if (bmobUser != null) {
+            flag = true;
+        } else {
+            flag = false;
+        }
+
+        return flag;
+    }
+
+    public String queryUser() {
+        String name = (String) BmobUser.getObjectByKey("username");
+
+        return name;
     }
 
 }

@@ -164,6 +164,10 @@
         "source": "D:\\AndroidStudioProjects\\LangHua\\app\\src\\main\\res\\layout\\activity_article.xml"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_login.xml",
+        "source": "D:\\AndroidStudioProjects\\LangHua\\app\\src\\main\\res\\layout\\dialog_login.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "D:\\AndroidStudioProjects\\LangHua\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },

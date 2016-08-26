@@ -20,6 +20,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -35,15 +36,15 @@ import cn.bmob.v3.listener.SaveListener;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    private RecyclerView recyclerView;
     private List<Article> articleList;
     private String APPID = "44aaca9931fa2c23b01071a474a081be";
     private Article_bmob ab = new Article_bmob();
     private SwipeRefreshLayout swipeRefreshLayout;
-    private BmobUser bmobUser;
     private SignUpAndLogin signUpAndLogin;
 
+    public RecyclerView recyclerView;
     public RecyclerViewAdapter adapter;
+    public BmobUser bmobUser;
 
     ArrayList<String> my_list = new ArrayList<String>();
 
@@ -74,6 +75,7 @@ public class MainActivity extends AppCompatActivity
 
         initData();
         adapter = new RecyclerViewAdapter(articleList, MainActivity.this);
+        signUpAndLogin = new SignUpAndLogin();
 
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(layoutManager);
@@ -102,15 +104,12 @@ public class MainActivity extends AppCompatActivity
 
                 //Intent intent = new Intent(MainActivity.this, WriteArticle.class);
                 //startActivity(intent);
-                signUpAndLogin = new SignUpAndLogin();
 
-                bmobUser = bmobUser.getCurrentUser();
-                if (bmobUser != null) {
-                    //Snackbar.make(view, "已登录，可以使用", Snackbar.LENGTH_LONG)
-                    //        .setAction("Action", null).show();
-                    showSignUpDialog();
+
+                if (signUpAndLogin.isLogin()) {
+                    Intent intent = new Intent(MainActivity.this, WriteArticle.class);
+                    startActivity(intent);
                 } else {
-                    //signUpAndLogin.UserSignUp("NickName", "123456");
                     showSignUpDialog();
                 }
             }
@@ -124,6 +123,8 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        setHeader();
 
     }
 
@@ -163,8 +164,10 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.action_logout) {
+            //return true;
+            BmobUser.logOut();
+            bmobUser = bmobUser.getCurrentUser(); //退出登录后为 null
         }
 
         return super.onOptionsItemSelected(item);
@@ -176,22 +179,27 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.item_login) {
-            //View v = getWindow().getDecorView();
+        if (id == R.id.item_camera) {
             // Handle the camera action
-            if (isLogin()) {
+        } else if (id == R.id.item_gallery) {
+
+        } else if (id == R.id.nav_login) {
+
+            if (signUpAndLogin.isLogin()) {
                 Snackbar.make(recyclerView, "已登录", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+            } else {
+                showLoginDialog();
             }
-        } else if (id == R.id.item_signup) {
-            if (isLogin()) {
+
+        } else if (id == R.id.nav_signup) {
+
+            if (signUpAndLogin.isLogin()) {
                 Snackbar.make(recyclerView, "已登录", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+            } else {
+                showSignUpDialog();
             }
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
 
         }
 
@@ -249,17 +257,19 @@ public class MainActivity extends AppCompatActivity
         LayoutInflater inflater = (LayoutInflater) MainActivity.this.getSystemService(LAYOUT_INFLATER_SERVICE);
         final View view = inflater.inflate(R.layout.dialog_signup, null);
 
-        new AlertDialog.Builder(MainActivity.this).setTitle("注册").setView(view)
-                .setPositiveButton("注册", new DialogInterface.OnClickListener() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        //new AlertDialog.Builder(MainActivity.this).setTitle("注册").setView(view)
+        builder.setTitle("注册").setView(view).setPositiveButton("注册", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        EditText edt_nick = (EditText) view.findViewById(R.id.user_nick);
-                        EditText edt_pwd = (EditText) view.findViewById(R.id.user_pwd);
+                        EditText signup_edt_nick = (EditText) view.findViewById(R.id.signup_user_nick);
+                        EditText signup_edt_pwd = (EditText) view.findViewById(R.id.signup_user_pwd);
+                        signUpAndLogin = new SignUpAndLogin();
 
                         String user_nick, user_pwd;
 
-                        user_nick = edt_nick.getText().toString();
-                        user_pwd = edt_pwd.getText().toString();
+                        user_nick = signup_edt_nick.getText().toString();
+                        user_pwd = signup_edt_pwd.getText().toString();
 
                         signUpAndLogin.UserSignUp(user_nick, user_pwd);
 
@@ -275,16 +285,50 @@ public class MainActivity extends AppCompatActivity
         }).show();
     }
 
-    private boolean isLogin() {
-        boolean flag;
-        bmobUser = bmobUser.getCurrentUser();
-        if (bmobUser != null) {
-            flag = true;
-        } else {
-            flag = false;
-        }
+    private void showLoginDialog() {
+        LayoutInflater inflater = (LayoutInflater) MainActivity.this.getSystemService(LAYOUT_INFLATER_SERVICE);
+        final View view = inflater.inflate(R.layout.dialog_login, null);
 
-        return flag;
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("登录").setView(view).setPositiveButton("登录", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                EditText login_edt_nick = (EditText) view.findViewById(R.id.login_user_nick);
+                EditText login_edt_pwd = (EditText) view.findViewById(R.id.login_user_pwd);
+                signUpAndLogin = new SignUpAndLogin();
+
+                String user_nick, user_pwd;
+
+                user_nick = login_edt_nick.getText().toString();
+                user_pwd = login_edt_pwd.getText().toString();
+
+                signUpAndLogin.UserLogIn(user_nick, user_pwd);
+
+                //Toast.makeText(MainActivity.this, "注册成功，用户名：" + user_nick + " 密码：" + user_pwd,
+                //       Toast.LENGTH_LONG).show();
+
+                Snackbar.make(recyclerView, "登录成功", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        }).setNegativeButton("取消", new DialogInterface.OnClickListener() {
+
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+
+            }
+        }).show();
+    }
+
+    private void setHeader() {
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        View headerView = navigationView.getHeaderView(0);
+
+        TextView tv_username = (TextView) headerView.findViewById(R.id.nav_header_username);
+
+        if (signUpAndLogin.queryUser() != null) {
+            tv_username.setText(signUpAndLogin.queryUser());
+            //headerView.invalidate();
+        }
     }
 
 }
